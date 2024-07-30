@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="primary">
+      <div class="container">
+        <img
+          alt="Testbook Logo"
+          src="https://testbook.com/question-answer/components/assets/images/logo-blue.svg"
+          width="150"
+          height="35"
+          class="tilt"
+        />
+        <br /><br /><br />
+        <h1 id="p1">Hello User!</h1>
+        <br />
+        <h3>Enter your name to continue the Quiz.</h3>
+        <br /><br />
+        <input type="text" placeholder="Enter your name" id="content" />
+        <button class="button-container">ENTER</button>
+        <br /><br />
+        <h4>You'll have 10 seconds to answer each question</h4>
+        <hr style:"50%";>
+      </div>
+      <div class="main">
+        <h1 id="p1">Select Category</h1>
+
+        <a href="#">Pipes And Cisterns</a>
+        <a href="Question.html">Probability</a>
+        <br>
+        <a href="#">Problem On Ages</a>
+        <a href="#">Profit And Loss</a>
+      </div>
+    </div>
+    <script src="quiz1.js"></script>
+    <script>$(".tilt").tilt({
+ scale: 1.2,
+    });
+    </script>
+  </body>
+</html>
